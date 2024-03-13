@@ -22,7 +22,7 @@ const editor = new Editor();
 if (typeof editor === 'undefined') {
   loadSpinner();
 }
-
+console.log("We are in index.js!");
 // Check if service workers are supported
 if ('serviceWorker' in navigator) {
   // register workbox service worker
